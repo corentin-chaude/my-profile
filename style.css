@@ -1,0 +1,64 @@
+/* Colors and fonts */
+body {
+  background: #F6F7F8;
+  font-family: "Dangrek", cursive;
+  font-size: 17px;
+  font-weight: normal; /* Style de texte sobre */
+  color: #000; /* Texte en noir */
+}
+
+h1, h2 {
+  color: #888; /* Couleur grise pour les titres h1 et h2 */
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #000; /* Liens en noir */
+  font-weight: lighter;
+  font-family: "Anton", sans-serif;
+  font-size: 10px;
+}
+
+a:hover {
+  color: #052F5F;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.style {
+  background: white;
+  width: 500px;
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.link-style {
+  background-color: #9381FF;
+  color: white;
+  width: 300px auto;
+  padding: 7px 7px;
+  border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+  .style {
+    width: 200px;
+  }
+}
+
+@media (max-width: 760px) {
+  .style {
+    width: 300px;
+  }
+}
